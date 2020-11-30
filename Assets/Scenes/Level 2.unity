@@ -4197,13 +4197,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 680481814}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a0da85505f5b334ca3e318dafc657d6, type: 3}
+  m_Script: {fileID: 11500000, guid: b556f183671214d44a2a33aa7965098d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RotationSpeed: 180
   Pos1: {fileID: 1432003676}
   pos2: {fileID: 16077585}
-  speed: 1.8
+  Saw: {fileID: 680481814}
+  speed: 2
   startPos: {fileID: 1432003676}
+  rotationControll: 0
+  RotZ: 0
 --- !u!50 &680481819
 Rigidbody2D:
   serializedVersion: 4
