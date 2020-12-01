@@ -21,16 +21,15 @@ public class SawControll : MonoBehaviour
     {
         if (transform.position == Pos1.position)
         {
-            Saw.transform.Rotate(0, 0, RotationSpeed);
             nextPos = pos2.position;
-            RotZ += Time.deltaTime * RotationSpeed;
+            Saw.transform.Rotate(0, 0, RotationSpeed);
+            rotationControll = true;
         }
-
         if (transform.position == pos2.position)
         {
             nextPos = Pos1.position;
             Saw.transform.Rotate(0, 0, RotationSpeed);
-            RotZ += Time.deltaTime * RotationSpeed;
+            rotationControll = false;
         }
         transform.position = Vector2.MoveTowards(transform.position, nextPos, speed * Time.deltaTime);
         if (rotationControll == false)
@@ -39,7 +38,7 @@ public class SawControll : MonoBehaviour
         }
         else
         {
-            RotZ += Time.deltaTime * RotationSpeed;
+            RotZ -= Time.deltaTime * RotationSpeed;
         }
         transform.rotation = Quaternion.Euler(0, 0, RotZ);
     }
