@@ -15,4 +15,14 @@ public class StartMenu : MonoBehaviour
         Debug.Log("Quit!");
         Application.Quit();
     }
+
+    public void GoToLevel2()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void GoBackToMenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+    }
 }
