@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - RespawnBox
   - DeathBox
+  - MovesVertically
   layers:
   - Default
   - TransparentFX

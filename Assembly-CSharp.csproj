@@ -67,11 +67,11 @@
     <Compile Include="Assets\Scripts\CanvasController.cs" />
     <Compile Include="Assets\Scripts\CoinPicker.cs" />
     <Compile Include="Assets\Scripts\GameEnded.cs" />
+    <Compile Include="Assets\Scripts\MenuScript.cs" />
     <Compile Include="Assets\Scripts\PlatformMove.cs" />
     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement2.cs" />
     <Compile Include="Assets\Scripts\SawControll.cs" />
-    <Compile Include="Assets\Scripts\StartMenu.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

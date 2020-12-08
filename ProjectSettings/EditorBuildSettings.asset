@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalScreen2.unity
     guid: 2a44057fd41c21b45973176d6c7e5a17
+  - enabled: 1
+    path: Assets/Scenes/InfoScreen.unity
+    guid: 0ab3e9282487c0649b1d5dd0779015f1
   m_configObjects: {}
