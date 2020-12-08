@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\PlatformMove.cs" />
     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement2.cs" />
+    <Compile Include="Assets\Scripts\Respawn2.cs" />
     <Compile Include="Assets\Scripts\SawControll.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -9,10 +9,6 @@ public class PlayerDeath : MonoBehaviour
     public Transform ResPoint;
     public Transform player;
 
-    public void Start()
-    {
-
-    }
 
     public void OnCollisionEnter2D(Collision2D other)
     {

@@ -10,6 +10,7 @@ TagManager:
   - RespawnBox
   - DeathBox
   - MovesVertically
+  - Respawn2
   layers:
   - Default
   - TransparentFX
