@@ -10,6 +10,7 @@ public class PlayerMovement2 : MonoBehaviour
     [SerializeField] private float JumpDelay = 0.1f;
     public GameObject player;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +28,12 @@ public class PlayerMovement2 : MonoBehaviour
     private void Update()
     {
         Jump();
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("Quit!");
+            Application.Quit();
+        }
     }
 
     void Jump()
